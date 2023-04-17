@@ -1,4 +1,4 @@
-CRUD PHP Digitro
+#CRUD PHP Digitro
 Este é um projeto desenvolvido como resposta ao teste técnico proposto pela Digitro, que consiste em um CRUD de funcionários com os seguintes campos: nome, data de nascimento, CPF, e-mail e estado civil, com as devidas validações.
 
 Observações:
