@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(to bottom, #1b2a4d, #253e73, #30519b);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', serif;
+}
+.logo-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.signature{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+header{
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+
+}
+.logo{
+    margin-top: 27px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.title-head{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.botao i{
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.form-container{
+    background-color: rgba(200, 200, 200, 0.466);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    background-color: lightgray;
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.563),0px 6px 20px 0px rgba(0, 0, 0, 0.563) ;
+    border-color: rgb(0, 123, 255);
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    color: #000;
+}
+.form-container input{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    align-content: center;
+    padding: 12px;
+    border: #000;
+    border: solid 2px;
+}
+.form-container label{
+    display: block;
+}
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 197px;
+    border-radius: 4px;
+    align-content: center;
+    padding: 12px;
+    border: #000;
+    border: solid 2px;
+}
+.botao-submit{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #00a85b;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.sucesso{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.table-card{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #007bff;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-inline: 32px;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table tbody{
+    text-align: center;
+}
+
+.table tbody tr{
+    height: 74px;
+    border-top: 1px solid white ;
+}
+.table tbody tr:hover > td{
+    background-color: #5ca6ff;
+}
+.table tbody tr:nth-child(odd){
+    background-color: #174c96;
+}
+
